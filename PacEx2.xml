@@ -7,14 +7,14 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="oled_setcursor" id="197" inline="true" disabled="true">
+      <block type="oled_setcursor" id="251" inline="true">
         <value name="STARTX">
-          <block type="math_number" id="230">
+          <block type="math_number" id="252">
             <field name="NUM">0</field>
           </block>
         </value>
         <value name="STARTY">
-          <block type="math_number" id="231">
+          <block type="math_number" id="253">
             <field name="NUM">0</field>
           </block>
         </value>
@@ -33,7 +33,7 @@
                       <block type="multimedia_displaybmp" id="150">
                         <field name="BMP">bg</field>
                         <next>
-                          <block type="oled_setcursor" id="232" inline="true">
+                          <block type="oled_setcursor" id="232" inline="true" disabled="true">
                             <value name="STARTX">
                               <block type="math_number" id="233">
                                 <field name="NUM">1</field>
