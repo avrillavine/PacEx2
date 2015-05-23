@@ -7,7 +7,7 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="oled_setcursor" id="197" inline="true">
+      <block type="oled_setcursor" id="197" inline="true" disabled="true">
         <value name="STARTX">
           <block type="math_number" id="230">
             <field name="NUM">0</field>
