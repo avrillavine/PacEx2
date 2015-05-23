@@ -33,21 +33,7 @@
                       <block type="multimedia_displaybmp" id="150">
                         <field name="BMP">bg</field>
                         <next>
-                          <block type="oled_setcursor" id="232" inline="true" disabled="true">
-                            <value name="STARTX">
-                              <block type="math_number" id="233">
-                                <field name="NUM">1</field>
-                              </block>
-                            </value>
-                            <value name="STARTY">
-                              <block type="math_number" id="234">
-                                <field name="NUM">1</field>
-                              </block>
-                            </value>
-                            <next>
-                              <block type="multimedia_doupdate" id="167"></block>
-                            </next>
-                          </block>
+                          <block type="multimedia_doupdate" id="167"></block>
                         </next>
                       </block>
                     </next>
