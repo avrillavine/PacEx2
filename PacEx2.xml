@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="procedures_defnoreturn" id="16" x="831" y="24">
+  <block type="procedures_defnoreturn" id="16" x="617" y="51">
     <mutation>
       <arg name="localX"></arg>
       <arg name="localY"></arg>
@@ -920,13 +920,13 @@
                               <block type="math_arithmetic" id="755" inline="true">
                                 <field name="OP">ADD</field>
                                 <value name="A">
-                                  <block type="math_number" id="154">
-                                    <field name="NUM">10</field>
+                                  <block type="variables_get" id="769">
+                                    <field name="VAR">loopCount</field>
                                   </block>
                                 </value>
                                 <value name="B">
-                                  <block type="variables_get" id="769">
-                                    <field name="VAR">loopCount</field>
+                                  <block type="math_number" id="154">
+                                    <field name="NUM">10</field>
                                   </block>
                                 </value>
                               </block>
