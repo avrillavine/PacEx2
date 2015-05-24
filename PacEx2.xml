@@ -594,108 +594,183 @@
             <next>
               <block type="oled_cleardisplay" id="253">
                 <next>
-                  <block type="multimedia_displaybmp" id="639">
-                    <field name="BMP">bg1</field>
+                  <block type="oled_setcursor" id="655" inline="true">
+                    <value name="STARTX">
+                      <block type="math_number" id="664">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                    <value name="STARTY">
+                      <block type="math_number" id="665">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
                     <next>
-                      <block type="oled_setcursor" id="255" inline="true">
-                        <value name="STARTX">
-                          <block type="variables_get" id="256">
-                            <field name="VAR">localX</field>
-                          </block>
-                        </value>
-                        <value name="STARTY">
-                          <block type="variables_get" id="257">
-                            <field name="VAR">localY</field>
-                          </block>
-                        </value>
+                      <block type="multimedia_displaybmp" id="639">
+                        <field name="BMP">bg1</field>
                         <next>
-                          <block type="multimedia_displaybmp" id="258">
-                            <field name="BMP">lpac1</field>
+                          <block type="oled_setcursor" id="255" inline="true">
+                            <value name="STARTX">
+                              <block type="variables_get" id="256">
+                                <field name="VAR">localX</field>
+                              </block>
+                            </value>
+                            <value name="STARTY">
+                              <block type="variables_get" id="257">
+                                <field name="VAR">localY</field>
+                              </block>
+                            </value>
                             <next>
-                              <block type="robot_delay" id="225" inline="true">
-                                <value name="DELAY">
-                                  <block type="math_number" id="226">
-                                    <field name="NUM">48</field>
-                                  </block>
-                                </value>
+                              <block type="multimedia_displaybmp" id="258">
+                                <field name="BMP">lpac1</field>
                                 <next>
-                                  <block type="multimedia_stopupdate" id="229">
+                                  <block type="robot_delay" id="225" inline="true">
+                                    <value name="DELAY">
+                                      <block type="math_number" id="226">
+                                        <field name="NUM">48</field>
+                                      </block>
+                                    </value>
                                     <next>
-                                      <block type="oled_cleardisplay" id="231">
+                                      <block type="multimedia_stopupdate" id="229">
                                         <next>
-                                          <block type="multimedia_displaybmp" id="640">
-                                            <field name="BMP">bg1</field>
+                                          <block type="oled_cleardisplay" id="231">
                                             <next>
-                                              <block type="oled_setcursor" id="641" inline="true">
+                                              <block type="oled_setcursor" id="666" inline="true">
                                                 <value name="STARTX">
-                                                  <block type="variables_get" id="642">
-                                                    <field name="VAR">localX</field>
+                                                  <block type="math_number" id="667">
+                                                    <field name="NUM">0</field>
                                                   </block>
                                                 </value>
                                                 <value name="STARTY">
-                                                  <block type="variables_get" id="643">
-                                                    <field name="VAR">localY</field>
+                                                  <block type="math_number" id="668">
+                                                    <field name="NUM">0</field>
                                                   </block>
                                                 </value>
                                                 <next>
-                                                  <block type="multimedia_displaybmp" id="260">
-                                                    <field name="BMP">lpac2</field>
+                                                  <block type="multimedia_displaybmp" id="640">
+                                                    <field name="BMP">bg1</field>
                                                     <next>
-                                                      <block type="multimedia_doupdate" id="233">
+                                                      <block type="oled_setcursor" id="641" inline="true">
+                                                        <value name="STARTX">
+                                                          <block type="variables_get" id="642">
+                                                            <field name="VAR">localX</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="STARTY">
+                                                          <block type="variables_get" id="643">
+                                                            <field name="VAR">localY</field>
+                                                          </block>
+                                                        </value>
                                                         <next>
-                                                          <block type="robot_delay" id="227" inline="true">
-                                                            <value name="DELAY">
-                                                              <block type="math_number" id="228">
-                                                                <field name="NUM">48</field>
-                                                              </block>
-                                                            </value>
+                                                          <block type="multimedia_displaybmp" id="260">
+                                                            <field name="BMP">lpac2</field>
                                                             <next>
-                                                              <block type="multimedia_stopupdate" id="230">
+                                                              <block type="multimedia_doupdate" id="233">
                                                                 <next>
-                                                                  <block type="oled_cleardisplay" id="232">
+                                                                  <block type="robot_delay" id="227" inline="true">
+                                                                    <value name="DELAY">
+                                                                      <block type="math_number" id="228">
+                                                                        <field name="NUM">48</field>
+                                                                      </block>
+                                                                    </value>
                                                                     <next>
-                                                                      <block type="multimedia_displaybmp" id="644">
-                                                                        <field name="BMP">bg1</field>
+                                                                      <block type="multimedia_stopupdate" id="230">
                                                                         <next>
-                                                                          <block type="oled_setcursor" id="645" inline="true">
-                                                                            <value name="STARTX">
-                                                                              <block type="variables_get" id="646">
-                                                                                <field name="VAR">localX</field>
-                                                                              </block>
-                                                                            </value>
-                                                                            <value name="STARTY">
-                                                                              <block type="variables_get" id="647">
-                                                                                <field name="VAR">localY</field>
-                                                                              </block>
-                                                                            </value>
+                                                                          <block type="oled_cleardisplay" id="232">
                                                                             <next>
-                                                                              <block type="multimedia_displaybmp" id="259">
-                                                                                <field name="BMP">lpac1</field>
+                                                                              <block type="oled_setcursor" id="669" inline="true">
+                                                                                <value name="STARTX">
+                                                                                  <block type="math_number" id="670">
+                                                                                    <field name="NUM">0</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <value name="STARTY">
+                                                                                  <block type="math_number" id="671">
+                                                                                    <field name="NUM">0</field>
+                                                                                  </block>
+                                                                                </value>
                                                                                 <next>
-                                                                                  <block type="multimedia_doupdate" id="234">
+                                                                                  <block type="multimedia_displaybmp" id="644">
+                                                                                    <field name="BMP">bg1</field>
                                                                                     <next>
-                                                                                      <block type="robot_delay" id="195" inline="true">
-                                                                                        <value name="DELAY">
-                                                                                          <block type="math_number" id="196">
-                                                                                            <field name="NUM">48</field>
+                                                                                      <block type="oled_setcursor" id="645" inline="true">
+                                                                                        <value name="STARTX">
+                                                                                          <block type="variables_get" id="646">
+                                                                                            <field name="VAR">localX</field>
+                                                                                          </block>
+                                                                                        </value>
+                                                                                        <value name="STARTY">
+                                                                                          <block type="variables_get" id="647">
+                                                                                            <field name="VAR">localY</field>
                                                                                           </block>
                                                                                         </value>
                                                                                         <next>
-                                                                                          <block type="multimedia_stopupdate" id="209">
+                                                                                          <block type="multimedia_displaybmp" id="259">
+                                                                                            <field name="BMP">lpac1</field>
                                                                                             <next>
-                                                                                              <block type="oled_cleardisplay" id="210">
+                                                                                              <block type="multimedia_doupdate" id="234">
                                                                                                 <next>
-                                                                                                  <block type="multimedia_displaybmp" id="211">
-                                                                                                    <field name="BMP">rpac3</field>
+                                                                                                  <block type="robot_delay" id="195" inline="true">
+                                                                                                    <value name="DELAY">
+                                                                                                      <block type="math_number" id="196">
+                                                                                                        <field name="NUM">48</field>
+                                                                                                      </block>
+                                                                                                    </value>
                                                                                                     <next>
-                                                                                                      <block type="multimedia_doupdate" id="212">
+                                                                                                      <block type="multimedia_stopupdate" id="209">
                                                                                                         <next>
-                                                                                                          <block type="robot_delay" id="235" inline="true">
-                                                                                                            <value name="DELAY">
-                                                                                                              <block type="math_number" id="236">
-                                                                                                                <field name="NUM">48</field>
+                                                                                                          <block type="oled_cleardisplay" id="210">
+                                                                                                            <next>
+                                                                                                              <block type="oled_setcursor" id="672" inline="true">
+                                                                                                                <value name="STARTX">
+                                                                                                                  <block type="math_number" id="673">
+                                                                                                                    <field name="NUM">0</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                                <value name="STARTY">
+                                                                                                                  <block type="math_number" id="674">
+                                                                                                                    <field name="NUM">0</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                                <next>
+                                                                                                                  <block type="multimedia_displaybmp" id="675">
+                                                                                                                    <field name="BMP">bg1</field>
+                                                                                                                    <next>
+                                                                                                                      <block type="oled_setcursor" id="676" inline="true">
+                                                                                                                        <value name="STARTX">
+                                                                                                                          <block type="variables_get" id="677">
+                                                                                                                            <field name="VAR">localX</field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                        <value name="STARTY">
+                                                                                                                          <block type="variables_get" id="678">
+                                                                                                                            <field name="VAR">localY</field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                        <next>
+                                                                                                                          <block type="multimedia_displaybmp" id="211">
+                                                                                                                            <field name="BMP">rpac3</field>
+                                                                                                                            <next>
+                                                                                                                              <block type="multimedia_doupdate" id="212">
+                                                                                                                                <next>
+                                                                                                                                  <block type="robot_delay" id="235" inline="true">
+                                                                                                                                    <value name="DELAY">
+                                                                                                                                      <block type="math_number" id="236">
+                                                                                                                                        <field name="NUM">48</field>
+                                                                                                                                      </block>
+                                                                                                                                    </value>
+                                                                                                                                  </block>
+                                                                                                                                </next>
+                                                                                                                              </block>
+                                                                                                                            </next>
+                                                                                                                          </block>
+                                                                                                                        </next>
+                                                                                                                      </block>
+                                                                                                                    </next>
+                                                                                                                  </block>
+                                                                                                                </next>
                                                                                                               </block>
-                                                                                                            </value>
+                                                                                                            </next>
                                                                                                           </block>
                                                                                                         </next>
                                                                                                       </block>
