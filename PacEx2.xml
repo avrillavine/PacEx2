@@ -958,124 +958,129 @@
                           </block>
                         </value>
                         <statement name="DO">
-                          <block type="procedures_callnoreturn" id="151" inline="false">
-                            <mutation name="drawPacMan">
-                              <arg name="localX"></arg>
-                              <arg name="localY"></arg>
-                              <arg name="localImage"></arg>
-                            </mutation>
-                            <value name="ARG0">
-                              <block type="variables_get" id="152">
-                                <field name="VAR">x</field>
-                              </block>
-                            </value>
-                            <value name="ARG1">
-                              <block type="variables_get" id="153">
-                                <field name="VAR">y</field>
-                              </block>
-                            </value>
-                            <value name="ARG2">
-                              <block type="variables_get" id="769">
-                                <field name="VAR">loopCount</field>
-                              </block>
-                            </value>
+                          <block type="comment_comment" id="895">
+                            <field name="TEXT">Error Upon Return</field>
                             <next>
-                              <block type="robot_delay" id="225" inline="true">
-                                <value name="DELAY">
-                                  <block type="math_number" id="226">
-                                    <field name="NUM">48</field>
+                              <block type="procedures_callnoreturn" id="151" inline="false">
+                                <mutation name="drawPacMan">
+                                  <arg name="localX"></arg>
+                                  <arg name="localY"></arg>
+                                  <arg name="localImage"></arg>
+                                </mutation>
+                                <value name="ARG0">
+                                  <block type="variables_get" id="152">
+                                    <field name="VAR">x</field>
+                                  </block>
+                                </value>
+                                <value name="ARG1">
+                                  <block type="variables_get" id="153">
+                                    <field name="VAR">y</field>
+                                  </block>
+                                </value>
+                                <value name="ARG2">
+                                  <block type="variables_get" id="769">
+                                    <field name="VAR">loopCount</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="variables_set" id="581" inline="true">
-                                    <field name="VAR">x</field>
-                                    <value name="VALUE">
-                                      <block type="math_arithmetic" id="582" inline="true">
-                                        <field name="OP">MINUS</field>
-                                        <value name="A">
-                                          <block type="variables_get" id="583">
-                                            <field name="VAR">x</field>
-                                          </block>
-                                        </value>
-                                        <value name="B">
-                                          <block type="math_number" id="584">
-                                            <field name="NUM">10</field>
-                                          </block>
-                                        </value>
+                                  <block type="robot_delay" id="225" inline="true">
+                                    <value name="DELAY">
+                                      <block type="math_number" id="226">
+                                        <field name="NUM">48</field>
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="controls_if" id="585" inline="false">
-                                        <value name="IF0">
-                                          <block type="logic_compare" id="586" inline="true">
-                                            <field name="OP">LT</field>
+                                      <block type="variables_set" id="581" inline="true">
+                                        <field name="VAR">x</field>
+                                        <value name="VALUE">
+                                          <block type="math_arithmetic" id="582" inline="true">
+                                            <field name="OP">MINUS</field>
                                             <value name="A">
-                                              <block type="variables_get" id="587">
+                                              <block type="variables_get" id="583">
                                                 <field name="VAR">x</field>
                                               </block>
                                             </value>
                                             <value name="B">
-                                              <block type="math_number" id="588">
-                                                <field name="NUM">-64</field>
+                                              <block type="math_number" id="584">
+                                                <field name="NUM">10</field>
                                               </block>
                                             </value>
                                           </block>
                                         </value>
-                                        <statement name="DO0">
-                                          <block type="variables_set" id="589" inline="true">
-                                            <field name="VAR">x</field>
-                                            <value name="VALUE">
-                                              <block type="math_number" id="590">
-                                                <field name="NUM">128</field>
-                                              </block>
-                                            </value>
-                                          </block>
-                                        </statement>
                                         <next>
-                                          <block type="variables_set" id="783" inline="true">
-                                            <field name="VAR">loopCount</field>
-                                            <value name="VALUE">
-                                              <block type="math_arithmetic" id="797" inline="true">
-                                                <field name="OP">ADD</field>
+                                          <block type="controls_if" id="585" inline="false">
+                                            <value name="IF0">
+                                              <block type="logic_compare" id="586" inline="true">
+                                                <field name="OP">LT</field>
                                                 <value name="A">
-                                                  <block type="variables_get" id="820">
-                                                    <field name="VAR">loopCount</field>
+                                                  <block type="variables_get" id="587">
+                                                    <field name="VAR">x</field>
                                                   </block>
                                                 </value>
                                                 <value name="B">
-                                                  <block type="math_number" id="827">
-                                                    <field name="NUM">1</field>
+                                                  <block type="math_number" id="588">
+                                                    <field name="NUM">-64</field>
                                                   </block>
                                                 </value>
                                               </block>
                                             </value>
+                                            <statement name="DO0">
+                                              <block type="variables_set" id="589" inline="true">
+                                                <field name="VAR">x</field>
+                                                <value name="VALUE">
+                                                  <block type="math_number" id="590">
+                                                    <field name="NUM">128</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </statement>
                                             <next>
-                                              <block type="controls_if" id="841" inline="false">
-                                                <value name="IF0">
-                                                  <block type="logic_compare" id="848" inline="true">
-                                                    <field name="OP">GTE</field>
+                                              <block type="variables_set" id="783" inline="true">
+                                                <field name="VAR">loopCount</field>
+                                                <value name="VALUE">
+                                                  <block type="math_arithmetic" id="797" inline="true">
+                                                    <field name="OP">ADD</field>
                                                     <value name="A">
-                                                      <block type="variables_get" id="849">
+                                                      <block type="variables_get" id="820">
                                                         <field name="VAR">loopCount</field>
                                                       </block>
                                                     </value>
                                                     <value name="B">
-                                                      <block type="math_number" id="850">
-                                                        <field name="NUM">14</field>
+                                                      <block type="math_number" id="827">
+                                                        <field name="NUM">1</field>
                                                       </block>
                                                     </value>
                                                   </block>
                                                 </value>
-                                                <statement name="DO0">
-                                                  <block type="variables_set" id="851" inline="true">
-                                                    <field name="VAR">loopCount</field>
-                                                    <value name="VALUE">
-                                                      <block type="math_number" id="852">
-                                                        <field name="NUM">10</field>
+                                                <next>
+                                                  <block type="controls_if" id="841" inline="false">
+                                                    <value name="IF0">
+                                                      <block type="logic_compare" id="848" inline="true">
+                                                        <field name="OP">GTE</field>
+                                                        <value name="A">
+                                                          <block type="variables_get" id="849">
+                                                            <field name="VAR">loopCount</field>
+                                                          </block>
+                                                        </value>
+                                                        <value name="B">
+                                                          <block type="math_number" id="850">
+                                                            <field name="NUM">14</field>
+                                                          </block>
+                                                        </value>
                                                       </block>
                                                     </value>
+                                                    <statement name="DO0">
+                                                      <block type="variables_set" id="851" inline="true">
+                                                        <field name="VAR">loopCount</field>
+                                                        <value name="VALUE">
+                                                          <block type="math_number" id="852">
+                                                            <field name="NUM">10</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </statement>
                                                   </block>
-                                                </statement>
+                                                </next>
                                               </block>
                                             </next>
                                           </block>
