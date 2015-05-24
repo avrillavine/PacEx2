@@ -1934,7 +1934,7 @@
                         </value>
                         <next>
                           <block type="multimedia_displaybmp" id="339">
-                            <field name="BMP">lpac1</field>
+                            <field name="BMP">rpac1</field>
                             <next>
                               <block type="multimedia_doupdate" id="340"></block>
                             </next>
