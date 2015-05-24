@@ -900,7 +900,7 @@
                           </block>
                         </value>
                         <statement name="DO">
-                          <block type="procedures_callnoreturn" id="151" inline="false" disabled="true">
+                          <block type="procedures_callnoreturn" id="151" inline="false">
                             <mutation name="drawPacMan">
                               <arg name="localX"></arg>
                               <arg name="localY"></arg>
