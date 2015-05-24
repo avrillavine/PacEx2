@@ -594,22 +594,23 @@
             <next>
               <block type="oled_cleardisplay" id="253">
                 <next>
-                  <block type="multimedia_doupdate" id="254">
+                  <block type="multimedia_displaybmp" id="639">
+                    <field name="BMP">bg1</field>
                     <next>
-                      <block type="multimedia_displaybmp" id="258">
-                        <field name="BMP">lpac1</field>
+                      <block type="oled_setcursor" id="255" inline="true">
+                        <value name="STARTX">
+                          <block type="variables_get" id="256">
+                            <field name="VAR">localX</field>
+                          </block>
+                        </value>
+                        <value name="STARTY">
+                          <block type="variables_get" id="257">
+                            <field name="VAR">localY</field>
+                          </block>
+                        </value>
                         <next>
-                          <block type="oled_setcursor" id="255" inline="true">
-                            <value name="STARTX">
-                              <block type="variables_get" id="256">
-                                <field name="VAR">localX</field>
-                              </block>
-                            </value>
-                            <value name="STARTY">
-                              <block type="variables_get" id="257">
-                                <field name="VAR">localY</field>
-                              </block>
-                            </value>
+                          <block type="multimedia_displaybmp" id="258">
+                            <field name="BMP">lpac1</field>
                             <next>
                               <block type="robot_delay" id="225" inline="true">
                                 <value name="DELAY">
