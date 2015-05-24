@@ -61,7 +61,7 @@
                       <block type="oled_cleardisplay" id="9">
                         <next>
                           <block type="multimedia_displaybmp" id="10">
-                            <field name="BMP">bg</field>
+                            <field name="BMP">bg1</field>
                             <next>
                               <block type="multimedia_doupdate" id="11"></block>
                             </next>
