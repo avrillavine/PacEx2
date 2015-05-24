@@ -449,6 +449,9 @@
                 </next>
               </block>
             </statement>
+            <statement name="ELSE">
+              <block type="multimedia_doupdate" id="860"></block>
+            </statement>
           </block>
         </statement>
         <value name="IF2">
