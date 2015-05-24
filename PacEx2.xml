@@ -34,270 +34,6 @@
             </value>
           </block>
         </value>
-        <statement name="DO0">
-          <block type="controls_if" id="301" inline="false">
-            <mutation elseif="3" else="1"></mutation>
-            <value name="IF0">
-              <block type="logic_compare" id="302" inline="true">
-                <field name="OP">EQ</field>
-                <value name="A">
-                  <block type="variables_get" id="303">
-                    <field name="VAR">localImage</field>
-                  </block>
-                </value>
-                <value name="B">
-                  <block type="math_number" id="304">
-                    <field name="NUM">10</field>
-                  </block>
-                </value>
-              </block>
-            </value>
-            <statement name="DO0">
-              <block type="multimedia_stopupdate" id="305">
-                <next>
-                  <block type="oled_cleardisplay" id="306">
-                    <next>
-                      <block type="oled_setcursor" id="307" inline="true">
-                        <value name="STARTX">
-                          <block type="math_number" id="308">
-                            <field name="NUM">0</field>
-                          </block>
-                        </value>
-                        <value name="STARTY">
-                          <block type="math_number" id="309">
-                            <field name="NUM">0</field>
-                          </block>
-                        </value>
-                        <next>
-                          <block type="multimedia_displaybmp" id="310">
-                            <field name="BMP">bg1</field>
-                            <next>
-                              <block type="oled_setcursor" id="311" inline="true">
-                                <value name="STARTX">
-                                  <block type="variables_get" id="312">
-                                    <field name="VAR">localX</field>
-                                  </block>
-                                </value>
-                                <value name="STARTY">
-                                  <block type="variables_get" id="313">
-                                    <field name="VAR">localY</field>
-                                  </block>
-                                </value>
-                                <next>
-                                  <block type="multimedia_displaybmp" id="314">
-                                    <field name="BMP">rpac1</field>
-                                    <next>
-                                      <block type="multimedia_doupdate" id="315"></block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
-                </next>
-              </block>
-            </statement>
-            <value name="IF1">
-              <block type="logic_compare" id="316" inline="true">
-                <field name="OP">EQ</field>
-                <value name="A">
-                  <block type="variables_get" id="317">
-                    <field name="VAR">localImage</field>
-                  </block>
-                </value>
-                <value name="B">
-                  <block type="math_number" id="318">
-                    <field name="NUM">11</field>
-                  </block>
-                </value>
-              </block>
-            </value>
-            <statement name="DO1">
-              <block type="multimedia_stopupdate" id="319">
-                <next>
-                  <block type="oled_cleardisplay" id="320">
-                    <next>
-                      <block type="oled_setcursor" id="321" inline="true">
-                        <value name="STARTX">
-                          <block type="math_number" id="322">
-                            <field name="NUM">0</field>
-                          </block>
-                        </value>
-                        <value name="STARTY">
-                          <block type="math_number" id="323">
-                            <field name="NUM">0</field>
-                          </block>
-                        </value>
-                        <next>
-                          <block type="multimedia_displaybmp" id="324">
-                            <field name="BMP">bg1</field>
-                            <next>
-                              <block type="oled_setcursor" id="325" inline="true">
-                                <value name="STARTX">
-                                  <block type="variables_get" id="326">
-                                    <field name="VAR">localX</field>
-                                  </block>
-                                </value>
-                                <value name="STARTY">
-                                  <block type="variables_get" id="327">
-                                    <field name="VAR">localY</field>
-                                  </block>
-                                </value>
-                                <next>
-                                  <block type="multimedia_displaybmp" id="328">
-                                    <field name="BMP">rpac2</field>
-                                    <next>
-                                      <block type="multimedia_doupdate" id="329"></block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
-                </next>
-              </block>
-            </statement>
-            <value name="IF2">
-              <block type="logic_compare" id="330" inline="true">
-                <field name="OP">EQ</field>
-                <value name="A">
-                  <block type="variables_get" id="331">
-                    <field name="VAR">localImage</field>
-                  </block>
-                </value>
-                <value name="B">
-                  <block type="math_number" id="332">
-                    <field name="NUM">12</field>
-                  </block>
-                </value>
-              </block>
-            </value>
-            <statement name="DO2">
-              <block type="multimedia_stopupdate" id="333">
-                <next>
-                  <block type="oled_cleardisplay" id="334">
-                    <next>
-                      <block type="oled_setcursor" id="335" inline="true">
-                        <value name="STARTX">
-                          <block type="math_number" id="336">
-                            <field name="NUM">0</field>
-                          </block>
-                        </value>
-                        <value name="STARTY">
-                          <block type="math_number" id="337">
-                            <field name="NUM">0</field>
-                          </block>
-                        </value>
-                        <next>
-                          <block type="multimedia_displaybmp" id="338">
-                            <field name="BMP">bg1</field>
-                            <next>
-                              <block type="oled_setcursor" id="339" inline="true">
-                                <value name="STARTX">
-                                  <block type="variables_get" id="340">
-                                    <field name="VAR">localX</field>
-                                  </block>
-                                </value>
-                                <value name="STARTY">
-                                  <block type="variables_get" id="341">
-                                    <field name="VAR">localY</field>
-                                  </block>
-                                </value>
-                                <next>
-                                  <block type="multimedia_displaybmp" id="342">
-                                    <field name="BMP">lpac1</field>
-                                    <next>
-                                      <block type="multimedia_doupdate" id="343"></block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
-                </next>
-              </block>
-            </statement>
-            <value name="IF3">
-              <block type="logic_compare" id="344" inline="true">
-                <field name="OP">EQ</field>
-                <value name="A">
-                  <block type="variables_get" id="345">
-                    <field name="VAR">localImage</field>
-                  </block>
-                </value>
-                <value name="B">
-                  <block type="math_number" id="346">
-                    <field name="NUM">13</field>
-                  </block>
-                </value>
-              </block>
-            </value>
-            <statement name="DO3">
-              <block type="multimedia_stopupdate" id="347">
-                <next>
-                  <block type="oled_cleardisplay" id="348">
-                    <next>
-                      <block type="oled_setcursor" id="349" inline="true">
-                        <value name="STARTX">
-                          <block type="math_number" id="350">
-                            <field name="NUM">0</field>
-                          </block>
-                        </value>
-                        <value name="STARTY">
-                          <block type="math_number" id="351">
-                            <field name="NUM">0</field>
-                          </block>
-                        </value>
-                        <next>
-                          <block type="multimedia_displaybmp" id="352">
-                            <field name="BMP">bg1</field>
-                            <next>
-                              <block type="oled_setcursor" id="353" inline="true">
-                                <value name="STARTX">
-                                  <block type="variables_get" id="354">
-                                    <field name="VAR">localX</field>
-                                  </block>
-                                </value>
-                                <value name="STARTY">
-                                  <block type="variables_get" id="355">
-                                    <field name="VAR">localY</field>
-                                  </block>
-                                </value>
-                                <next>
-                                  <block type="multimedia_displaybmp" id="356">
-                                    <field name="BMP">rpac3</field>
-                                    <next>
-                                      <block type="multimedia_doupdate" id="357"></block>
-                                    </next>
-                                  </block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
-                </next>
-              </block>
-            </statement>
-            <statement name="ELSE">
-              <block type="multimedia_doupdate" id="358"></block>
-            </statement>
-          </block>
-        </statement>
         <value name="IF1">
           <block type="logic_compare" id="38" inline="true">
             <field name="OP">EQ</field>
@@ -1217,95 +953,176 @@
                   </block>
                 </value>
                 <statement name="DO0">
-                  <block type="controls_whileUntil" id="181" inline="false">
-                    <field name="MODE">WHILE</field>
-                    <value name="NUMBER">
-                      <block type="sensor_button" id="182">
-                        <field name="OBJECT">RIGHT</field>
+                  <block type="variables_set" id="542" inline="true">
+                    <field name="VAR">loopCount</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="549">
+                        <field name="NUM">0</field>
                       </block>
                     </value>
-                    <statement name="DO">
-                      <block type="procedures_callnoreturn" id="184" inline="false">
-                        <mutation name="drawPacMan">
-                          <arg name="localX"></arg>
-                          <arg name="localY"></arg>
-                          <arg name="localImage"></arg>
-                        </mutation>
-                        <value name="ARG0">
-                          <block type="variables_get" id="185">
-                            <field name="VAR">x</field>
+                    <next>
+                      <block type="controls_whileUntil" id="181" inline="false">
+                        <field name="MODE">WHILE</field>
+                        <value name="NUMBER">
+                          <block type="sensor_button" id="182">
+                            <field name="OBJECT">RIGHT</field>
                           </block>
                         </value>
-                        <value name="ARG1">
-                          <block type="variables_get" id="186">
-                            <field name="VAR">y</field>
-                          </block>
-                        </value>
-                        <value name="ARG2">
-                          <block type="math_number" id="188">
-                            <field name="NUM">0</field>
-                          </block>
-                        </value>
-                        <next>
-                          <block type="robot_delay" id="280" inline="true">
-                            <value name="DELAY">
-                              <block type="math_number" id="281">
-                                <field name="NUM">48</field>
+                        <statement name="DO">
+                          <block type="controls_if" id="600" inline="false">
+                            <mutation elseif="3"></mutation>
+                            <value name="IF0">
+                              <block type="logic_compare" id="613" inline="true">
+                                <field name="OP">EQ</field>
+                                <value name="A">
+                                  <block type="variables_get" id="640">
+                                    <field name="VAR">loopCount</field>
+                                  </block>
+                                </value>
+                                <value name="B">
+                                  <block type="math_number" id="647">
+                                    <field name="NUM">0</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="IF1">
+                              <block type="logic_compare" id="648" inline="true">
+                                <field name="OP">EQ</field>
+                                <value name="A">
+                                  <block type="variables_get" id="649">
+                                    <field name="VAR">loopCount</field>
+                                  </block>
+                                </value>
+                                <value name="B">
+                                  <block type="math_number" id="650">
+                                    <field name="NUM">1</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="IF2">
+                              <block type="logic_compare" id="651" inline="true">
+                                <field name="OP">EQ</field>
+                                <value name="A">
+                                  <block type="variables_get" id="652">
+                                    <field name="VAR">loopCount</field>
+                                  </block>
+                                </value>
+                                <value name="B">
+                                  <block type="math_number" id="653">
+                                    <field name="NUM">2</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="IF3">
+                              <block type="logic_compare" id="654" inline="true">
+                                <field name="OP">EQ</field>
+                                <value name="A">
+                                  <block type="variables_get" id="655">
+                                    <field name="VAR">loopCount</field>
+                                  </block>
+                                </value>
+                                <value name="B">
+                                  <block type="math_number" id="656">
+                                    <field name="NUM">3</field>
+                                  </block>
+                                </value>
                               </block>
                             </value>
                             <next>
-                              <block type="variables_set" id="190" inline="true">
-                                <field name="VAR">x</field>
-                                <value name="VALUE">
-                                  <block type="math_arithmetic" id="191" inline="true">
-                                    <field name="OP">ADD</field>
-                                    <value name="A">
-                                      <block type="variables_get" id="192">
-                                        <field name="VAR">x</field>
-                                      </block>
-                                    </value>
-                                    <value name="B">
-                                      <block type="math_number" id="193">
-                                        <field name="NUM">10</field>
-                                      </block>
-                                    </value>
+                              <block type="robot_delay" id="280" inline="true">
+                                <value name="DELAY">
+                                  <block type="math_number" id="281">
+                                    <field name="NUM">48</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="controls_if" id="194" inline="false">
-                                    <value name="IF0">
-                                      <block type="logic_compare" id="195" inline="true">
-                                        <field name="OP">GT</field>
+                                  <block type="variables_set" id="190" inline="true">
+                                    <field name="VAR">x</field>
+                                    <value name="VALUE">
+                                      <block type="math_arithmetic" id="191" inline="true">
+                                        <field name="OP">ADD</field>
                                         <value name="A">
-                                          <block type="variables_get" id="196">
+                                          <block type="variables_get" id="192">
                                             <field name="VAR">x</field>
                                           </block>
                                         </value>
                                         <value name="B">
-                                          <block type="math_number" id="197">
-                                            <field name="NUM">128</field>
+                                          <block type="math_number" id="193">
+                                            <field name="NUM">10</field>
                                           </block>
                                         </value>
                                       </block>
                                     </value>
-                                    <statement name="DO0">
-                                      <block type="variables_set" id="198" inline="true">
-                                        <field name="VAR">x</field>
-                                        <value name="VALUE">
-                                          <block type="math_number" id="199">
-                                            <field name="NUM">-50</field>
+                                    <next>
+                                      <block type="controls_if" id="194" inline="false">
+                                        <value name="IF0">
+                                          <block type="logic_compare" id="195" inline="true">
+                                            <field name="OP">GT</field>
+                                            <value name="A">
+                                              <block type="variables_get" id="196">
+                                                <field name="VAR">x</field>
+                                              </block>
+                                            </value>
+                                            <value name="B">
+                                              <block type="math_number" id="197">
+                                                <field name="NUM">128</field>
+                                              </block>
+                                            </value>
                                           </block>
                                         </value>
+                                        <statement name="DO0">
+                                          <block type="variables_set" id="198" inline="true">
+                                            <field name="VAR">x</field>
+                                            <value name="VALUE">
+                                              <block type="math_number" id="199">
+                                                <field name="NUM">-50</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </statement>
+                                        <next>
+                                          <block type="variables_set" id="563" inline="true">
+                                            <field name="VAR">loopCount</field>
+                                            <value name="VALUE">
+                                              <block type="math_arithmetic" id="570" inline="true">
+                                                <field name="OP">MODULO</field>
+                                                <value name="A">
+                                                  <block type="math_arithmetic" id="571" inline="true">
+                                                    <field name="OP">ADD</field>
+                                                    <value name="A">
+                                                      <block type="variables_get" id="593">
+                                                        <field name="VAR">loopCount</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="B">
+                                                      <block type="math_number" id="578">
+                                                        <field name="NUM">1</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <value name="B">
+                                                  <block type="math_number" id="579">
+                                                    <field name="NUM">4</field>
+                                                  </block>
+                                                </value>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </next>
                                       </block>
-                                    </statement>
+                                    </next>
                                   </block>
                                 </next>
                               </block>
                             </next>
                           </block>
-                        </next>
+                        </statement>
                       </block>
-                    </statement>
+                    </next>
                   </block>
                 </statement>
                 <value name="IF1">
@@ -1629,5 +1446,229 @@
         </next>
       </block>
     </next>
+  </block>
+  <block type="procedures_defnoreturn" id="484" x="671" y="72">
+    <mutation>
+      <arg name="localX"></arg>
+      <arg name="localY"></arg>
+    </mutation>
+    <field name="NAME">drawRight0</field>
+    <statement name="STACK">
+      <block type="multimedia_stopupdate" id="305">
+        <next>
+          <block type="oled_cleardisplay" id="306">
+            <next>
+              <block type="oled_setcursor" id="307" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="308">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="309">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="multimedia_displaybmp" id="310">
+                    <field name="BMP">bg1</field>
+                    <next>
+                      <block type="oled_setcursor" id="311" inline="true">
+                        <value name="STARTX">
+                          <block type="variables_get" id="312">
+                            <field name="VAR">localX</field>
+                          </block>
+                        </value>
+                        <value name="STARTY">
+                          <block type="variables_get" id="313">
+                            <field name="VAR">localY</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="multimedia_displaybmp" id="314">
+                            <field name="BMP">rpac1</field>
+                            <next>
+                              <block type="multimedia_doupdate" id="315"></block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="495" x="670" y="335">
+    <mutation>
+      <arg name="localX"></arg>
+      <arg name="localY"></arg>
+    </mutation>
+    <field name="NAME">drawRight1</field>
+    <statement name="STACK">
+      <block type="multimedia_stopupdate" id="319">
+        <next>
+          <block type="oled_cleardisplay" id="320">
+            <next>
+              <block type="oled_setcursor" id="321" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="322">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="323">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="multimedia_displaybmp" id="324">
+                    <field name="BMP">bg1</field>
+                    <next>
+                      <block type="oled_setcursor" id="325" inline="true">
+                        <value name="STARTX">
+                          <block type="variables_get" id="326">
+                            <field name="VAR">localX</field>
+                          </block>
+                        </value>
+                        <value name="STARTY">
+                          <block type="variables_get" id="327">
+                            <field name="VAR">localY</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="multimedia_displaybmp" id="328">
+                            <field name="BMP">rpac2</field>
+                            <next>
+                              <block type="multimedia_doupdate" id="329"></block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="507" x="663" y="597">
+    <mutation>
+      <arg name="localX"></arg>
+      <arg name="localY"></arg>
+    </mutation>
+    <field name="NAME">drawRight3</field>
+    <statement name="STACK">
+      <block type="multimedia_stopupdate" id="333">
+        <next>
+          <block type="oled_cleardisplay" id="334">
+            <next>
+              <block type="oled_setcursor" id="335" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="336">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="337">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="multimedia_displaybmp" id="338">
+                    <field name="BMP">bg1</field>
+                    <next>
+                      <block type="oled_setcursor" id="339" inline="true">
+                        <value name="STARTX">
+                          <block type="variables_get" id="340">
+                            <field name="VAR">localX</field>
+                          </block>
+                        </value>
+                        <value name="STARTY">
+                          <block type="variables_get" id="341">
+                            <field name="VAR">localY</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="multimedia_displaybmp" id="342">
+                            <field name="BMP">lpac1</field>
+                            <next>
+                              <block type="multimedia_doupdate" id="343"></block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="519" x="670" y="857">
+    <mutation>
+      <arg name="localX"></arg>
+      <arg name="localY"></arg>
+    </mutation>
+    <field name="NAME">drawRight4</field>
+    <statement name="STACK">
+      <block type="multimedia_stopupdate" id="347">
+        <next>
+          <block type="oled_cleardisplay" id="348">
+            <next>
+              <block type="oled_setcursor" id="349" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="350">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="351">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="multimedia_displaybmp" id="352">
+                    <field name="BMP">bg1</field>
+                    <next>
+                      <block type="oled_setcursor" id="353" inline="true">
+                        <value name="STARTX">
+                          <block type="variables_get" id="354">
+                            <field name="VAR">localX</field>
+                          </block>
+                        </value>
+                        <value name="STARTY">
+                          <block type="variables_get" id="355">
+                            <field name="VAR">localY</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="multimedia_displaybmp" id="356">
+                            <field name="BMP">rpac3</field>
+                            <next>
+                              <block type="multimedia_doupdate" id="357"></block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
   </block>
 </xml>
