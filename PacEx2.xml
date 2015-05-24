@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="procedures_defnoreturn" id="16" x="617" y="51">
+  <block type="procedures_defnoreturn" id="16" x="464" y="45">
     <mutation>
       <arg name="localX"></arg>
       <arg name="localY"></arg>
@@ -192,7 +192,7 @@
         </value>
         <statement name="DO1">
           <block type="controls_if" id="705" inline="false">
-            <mutation elseif="3"></mutation>
+            <mutation elseif="3" else="1"></mutation>
             <value name="IF0">
               <block type="logic_compare" id="709" inline="true">
                 <field name="OP">EQ</field>
