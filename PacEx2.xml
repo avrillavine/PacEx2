@@ -917,18 +917,8 @@
                               </block>
                             </value>
                             <value name="ARG2">
-                              <block type="math_arithmetic" id="755" inline="true">
-                                <field name="OP">ADD</field>
-                                <value name="A">
-                                  <block type="variables_get" id="769">
-                                    <field name="VAR">loopCount</field>
-                                  </block>
-                                </value>
-                                <value name="B">
-                                  <block type="math_number" id="154">
-                                    <field name="NUM">10</field>
-                                  </block>
-                                </value>
+                              <block type="variables_get" id="769">
+                                <field name="VAR">loopCount</field>
                               </block>
                             </value>
                             <next>
@@ -1231,5 +1221,13 @@
         </next>
       </block>
     </next>
+  </block>
+  <block type="math_arithmetic" id="755" inline="true" disabled="true" x="195" y="686">
+    <field name="OP">ADD</field>
+    <value name="B">
+      <block type="math_number" id="154">
+        <field name="NUM">10</field>
+      </block>
+    </value>
   </block>
 </xml>
