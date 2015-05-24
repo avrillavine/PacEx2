@@ -888,7 +888,7 @@
                     <field name="VAR">loopCount</field>
                     <value name="VALUE">
                       <block type="math_number" id="748">
-                        <field name="NUM">0</field>
+                        <field name="NUM">10</field>
                       </block>
                     </value>
                     <next>
@@ -977,30 +977,49 @@
                                           <block type="variables_set" id="783" inline="true">
                                             <field name="VAR">loopCount</field>
                                             <value name="VALUE">
-                                              <block type="math_arithmetic" id="790" inline="true">
-                                                <field name="OP">MODULO</field>
+                                              <block type="math_arithmetic" id="797" inline="true">
+                                                <field name="OP">ADD</field>
                                                 <value name="A">
-                                                  <block type="math_arithmetic" id="797" inline="true">
-                                                    <field name="OP">ADD</field>
-                                                    <value name="A">
-                                                      <block type="variables_get" id="820">
-                                                        <field name="VAR">loopCount</field>
-                                                      </block>
-                                                    </value>
-                                                    <value name="B">
-                                                      <block type="math_number" id="827">
-                                                        <field name="NUM">1</field>
-                                                      </block>
-                                                    </value>
+                                                  <block type="variables_get" id="820">
+                                                    <field name="VAR">loopCount</field>
                                                   </block>
                                                 </value>
                                                 <value name="B">
-                                                  <block type="math_number" id="834">
-                                                    <field name="NUM">4</field>
+                                                  <block type="math_number" id="827">
+                                                    <field name="NUM">1</field>
                                                   </block>
                                                 </value>
                                               </block>
                                             </value>
+                                            <next>
+                                              <block type="controls_if" id="841" inline="false">
+                                                <value name="IF0">
+                                                  <block type="logic_compare" id="848" inline="true">
+                                                    <field name="OP">GTE</field>
+                                                    <value name="A">
+                                                      <block type="variables_get" id="849">
+                                                        <field name="VAR">loopCount</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="B">
+                                                      <block type="math_number" id="850">
+                                                        <field name="NUM">14</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </value>
+                                                <statement name="DO0">
+                                                  <block type="variables_set" id="851" inline="true">
+                                                    <field name="VAR">loopCount</field>
+                                                    <value name="VALUE">
+                                                      <block type="math_number" id="852">
+                                                        <field name="NUM">10</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </statement>
+                                              </block>
+                                            </next>
                                           </block>
                                         </next>
                                       </block>
@@ -1221,13 +1240,5 @@
         </next>
       </block>
     </next>
-  </block>
-  <block type="math_arithmetic" id="755" inline="true" disabled="true" x="195" y="686">
-    <field name="OP">ADD</field>
-    <value name="B">
-      <block type="math_number" id="154">
-        <field name="NUM">10</field>
-      </block>
-    </value>
   </block>
 </xml>
