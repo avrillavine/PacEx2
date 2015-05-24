@@ -984,7 +984,7 @@
                                           </block>
                                         </statement>
                                         <next>
-                                          <block type="variables_set" id="783" inline="true" disabled="true">
+                                          <block type="variables_set" id="783" inline="true">
                                             <field name="VAR">loopCount</field>
                                             <value name="VALUE">
                                               <block type="math_arithmetic" id="790" inline="true">
