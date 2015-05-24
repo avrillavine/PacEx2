@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="procedures_defnoreturn" id="1" x="235" y="80">
+  <block type="procedures_defnoreturn" id="1" x="363" y="79">
     <mutation>
       <arg name="localX"></arg>
       <arg name="localY"></arg>
@@ -986,6 +986,24 @@
                                 </value>
                               </block>
                             </value>
+                            <statement name="DO0">
+                              <block type="procedures_callnoreturn" id="361" inline="false">
+                                <mutation name="drawRight0">
+                                  <arg name="localX"></arg>
+                                  <arg name="localY"></arg>
+                                </mutation>
+                                <value name="ARG0">
+                                  <block type="variables_get" id="411">
+                                    <field name="VAR">x</field>
+                                  </block>
+                                </value>
+                                <value name="ARG1">
+                                  <block type="variables_get" id="412">
+                                    <field name="VAR">y</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </statement>
                             <value name="IF1">
                               <block type="logic_compare" id="217" inline="true">
                                 <field name="OP">EQ</field>
@@ -1001,6 +1019,24 @@
                                 </value>
                               </block>
                             </value>
+                            <statement name="DO1">
+                              <block type="procedures_callnoreturn" id="370" inline="false">
+                                <mutation name="drawRight1">
+                                  <arg name="localX"></arg>
+                                  <arg name="localY"></arg>
+                                </mutation>
+                                <value name="ARG0">
+                                  <block type="variables_get" id="413">
+                                    <field name="VAR">x</field>
+                                  </block>
+                                </value>
+                                <value name="ARG1">
+                                  <block type="variables_get" id="414">
+                                    <field name="VAR">y</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </statement>
                             <value name="IF2">
                               <block type="logic_compare" id="220" inline="true">
                                 <field name="OP">EQ</field>
@@ -1016,6 +1052,24 @@
                                 </value>
                               </block>
                             </value>
+                            <statement name="DO2">
+                              <block type="procedures_callnoreturn" id="388" inline="false">
+                                <mutation name="drawRight2">
+                                  <arg name="localX"></arg>
+                                  <arg name="localY"></arg>
+                                </mutation>
+                                <value name="ARG0">
+                                  <block type="variables_get" id="415">
+                                    <field name="VAR">x</field>
+                                  </block>
+                                </value>
+                                <value name="ARG1">
+                                  <block type="variables_get" id="416">
+                                    <field name="VAR">y</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </statement>
                             <value name="IF3">
                               <block type="logic_compare" id="223" inline="true">
                                 <field name="OP">EQ</field>
@@ -1031,6 +1085,24 @@
                                 </value>
                               </block>
                             </value>
+                            <statement name="DO3">
+                              <block type="procedures_callnoreturn" id="397" inline="false">
+                                <mutation name="drawRight3">
+                                  <arg name="localX"></arg>
+                                  <arg name="localY"></arg>
+                                </mutation>
+                                <value name="ARG0">
+                                  <block type="variables_get" id="417">
+                                    <field name="VAR">x</field>
+                                  </block>
+                                </value>
+                                <value name="ARG1">
+                                  <block type="variables_get" id="418">
+                                    <field name="VAR">y</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </statement>
                             <next>
                               <block type="robot_delay" id="226" inline="true">
                                 <value name="DELAY">
@@ -1447,7 +1519,7 @@
       </block>
     </next>
   </block>
-  <block type="procedures_defnoreturn" id="305" x="671" y="72">
+  <block type="procedures_defnoreturn" id="305" x="922" y="64">
     <mutation>
       <arg name="localX"></arg>
       <arg name="localY"></arg>
@@ -1503,7 +1575,7 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="317" x="670" y="335">
+  <block type="procedures_defnoreturn" id="317" x="918" y="321">
     <mutation>
       <arg name="localX"></arg>
       <arg name="localY"></arg>
@@ -1559,12 +1631,12 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="329" x="663" y="597">
+  <block type="procedures_defnoreturn" id="329" x="918" y="583">
     <mutation>
       <arg name="localX"></arg>
       <arg name="localY"></arg>
     </mutation>
-    <field name="NAME">drawRight3</field>
+    <field name="NAME">drawRight2</field>
     <statement name="STACK">
       <block type="multimedia_stopupdate" id="330">
         <next>
@@ -1615,12 +1687,12 @@
       </block>
     </statement>
   </block>
-  <block type="procedures_defnoreturn" id="341" x="670" y="857">
+  <block type="procedures_defnoreturn" id="341" x="914" y="841">
     <mutation>
       <arg name="localX"></arg>
       <arg name="localY"></arg>
     </mutation>
-    <field name="NAME">drawRight4</field>
+    <field name="NAME">drawRight3</field>
     <statement name="STACK">
       <block type="multimedia_stopupdate" id="342">
         <next>
