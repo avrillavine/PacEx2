@@ -751,6 +751,9 @@
                                 <field name="VAR">localY</field>
                               </block>
                             </value>
+                            <next>
+                              <block type="multimedia_doupdate" id="861"></block>
+                            </next>
                           </block>
                         </next>
                       </block>
@@ -761,9 +764,6 @@
             </next>
           </block>
         </statement>
-        <next>
-          <block type="multimedia_doupdate" id="26"></block>
-        </next>
       </block>
     </statement>
   </block>
